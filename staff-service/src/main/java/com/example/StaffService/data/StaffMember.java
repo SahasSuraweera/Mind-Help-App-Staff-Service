@@ -14,6 +14,18 @@ public class StaffMember {
     @Column(name = "staff_id")
     private int staffId;
 
+
+    public Integer getCounsellorId() {
+        return counsellorId;
+    }
+
+    public void setCounsellorId(Integer counsellorId) {
+        this.counsellorId = counsellorId;
+    }
+
+    @Column(name = "counsellor_id")
+    private Integer counsellorId;
+
     @Column(name = "user_id")
     private int userId;
 
