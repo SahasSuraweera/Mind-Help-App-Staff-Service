@@ -26,10 +26,6 @@ public class StaffMemberController {
         return staffMemberService.getAllActiveStaff();
     }
 
-    //    @GetMapping
-//    public List<StaffMember> getAll(){
-//        return staffMemberService.getAllStaff();
-//    }
     @GetMapping("/{id}")
     public StaffMember getById(@PathVariable int id) {
         return staffMemberService.getStaffById(id);

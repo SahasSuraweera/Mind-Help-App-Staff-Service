@@ -14,15 +14,6 @@ public class StaffMember {
     @Column(name = "staff_id")
     private int staffId;
 
-
-    public Integer getCounsellorId() {
-        return counsellorId;
-    }
-
-    public void setCounsellorId(Integer counsellorId) {
-        this.counsellorId = counsellorId;
-    }
-
     @Column(name = "counsellor_id")
     private Integer counsellorId;
 
@@ -71,6 +62,14 @@ public class StaffMember {
 
     public void setStaffId(int staffId) {
         this.staffId = staffId;
+    }
+
+    public Integer getCounsellorId() {
+        return counsellorId;
+    }
+
+    public void setCounsellorId(Integer counsellorId) {
+        this.counsellorId = counsellorId;
     }
 
     public int getUserId() {
